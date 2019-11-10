@@ -1,0 +1,47 @@
+.Portfolio {
+            margin-top: 150px;
+            margin-left: 100px;
+             }
+  
+.name{
+    margin-left: 100px;
+}
+.menu{
+    margin-top: 280px;
+}
+
+.menu-in ul li{
+    display: inline;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+    margin-left: 55px;
+    color: black;
+    text-decoration: none;
+}
+
+a{text-decoration: none;}
+
+.header {
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
