@@ -23,7 +23,7 @@ a{text-decoration: none;}
 
 .header {
     animation: fadein 2s;
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -webkit-animation: fadein 2s; 
 }
 
 
@@ -44,4 +44,8 @@ a{text-decoration: none;}
     to {
         opacity:1;
     }
+}
+
+.menu-in ul a li:hover {
+    color: rgb(202, 82, 58);
 }

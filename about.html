@@ -5,20 +5,131 @@
     <title>about</title>
     <link rel="stylesheet" href="css/css2.css">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 <body>
+
+<div class="circle"></div>
     <section class="left">
         <div class="sec">
             <ul>
-               <a href=""><li>About</li></a>
-               <a href=""> <li>Portfolio</li></a>
-               <a href=""><li>Contact</li> </a>
+               <a href="index.html"><li>Home</li></a>
+               <a href="#p1"  onclick="j_test(0)"><li> About </li></a>
+               <a href="#p2"  onclick="j_test(1)"> <li> Portfolio </li></a>
+               <a href="#p3"  onclick="j_test(2)"><li> Contact </li> </a>
             </ul>
         </div>
     </section>
 
+<section class="about-about">
 
+<div class="about-img">
+    <img src="img/KakaoTalk_20191113_213506574_03.jpg" alt="">
+
+    <div class="button">
+    자기소개서
+    </div>
+</div>   
+
+
+<span class="about"></span>
+ <div class="suv-wrap"> 
+<div class="profile">
+        PROFILE <br>
+        <div class="suv-profile">
+        정효리 <br>
+        010 - 2652 - 1077 <br>
+        bab06147@gmail.com
+    </div>
+    </div>
+
+    <div class="awords">
+        AWORDS
+        <div class="awords-suv">
+            2019 국제 커뮤니케이션 디자인 공모전 입선작<br>
+            '마지막처럼'
+        </div>
+    </div>
+
+    <div class="skils">
+        SKILL <br>
+    <div class="skils-suv">
+Ps <span></span> <img src="img/PS.png" alt=""><br><br>
+Ai <span></span> <img src="img/Ai.png" alt=""><br><br>
+Ae <span></span> <img src="img/Ae.png" alt="">
+    </div>
+    </div>
+</div>
+</section> 
+
+<section>
+<div class="effect-wrap-1">
+        <figure class="effect7">
+           <span class="about"></span> <img src="img/마지막처럼.png" alt="">
+            <figcaption>
+                <h3>Project 마지막처럼</h3>
+                <p>2019 국제 커뮤니케이션 디자인 공모전 입선작</p>
+                <a href="https://www.behance.net/gallery/88787495/_" class="read">Read More</a>
+            </figcaption>
+        </figure>
+    </div>
+
+    <div class="effect-wrap">
+        <figure class="effect7">
+            <img src="img/pado.png" alt="">
+            <figcaption>
+                <h3>Pado</h3>
+                <p>카페 '파도' 웹페이지</p>
+                <a href="pado/index.html" class="read">Read More</a>
+            </figcaption>
+        </figure>
+    </div>
+    
+    <div class="effect-wrap-2">
+        <figure class="effect7">
+            <img src="img/sodma.jpg" alt="">
+            <figcaption>
+                <h3>소담</h3>
+                <p>2019 졸업작품 '소담'</p>
+                <a href="sodam/index.html" class="read">Read More</a>
+            </figcaption>
+        </figure>
+    </div>
+    </section>
+
+
+<section class="container">
+    <div >  
+        <form id="contact" action="" method="post">
+  <span class="about"></span>        <h3>Contact Form</h3>
+<br>
+          <fieldset>
+            <input placeholder=" name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+         
+          <fieldset>
+            <input placeholder=" Phone Number" type="tel" tabindex="3" required>
+          </fieldset>
+    
+          <fieldset>
+            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+          </fieldset>
+          
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+         
+        </form>
+      </div>
+ </section>
+
+      <footer>
+        Kawon University of Art and Design @ Portfolio_Jeong Hyo Ry
+
+      </footer>
+<script src="js/js.js"></script>
 
 
 </body>
