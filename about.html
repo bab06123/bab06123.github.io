@@ -28,8 +28,8 @@
 <div class="about-img">
     <img src="img/KakaoTalk_20191113_213506574_03.jpg" alt="">
 
-    <div class="button">
-    자기소개서
+    <div class="trairer">
+       <a href="" download= "img/D반_21861114_정효리_자기소개서.pdf"></a> <button type="submit" class="btn btn-start-order-2">자기소개서</button></a> 
     </div>
 </div>   
 
@@ -38,14 +38,14 @@
  <div class="suv-wrap"> 
 <div class="profile">
         PROFILE <br>
-        <div class="suv-profile">
+        <div class="suv-profile" id="tracking-in-expand">
         정효리 <br>
         010 - 2652 - 1077 <br>
         bab06147@gmail.com
     </div>
     </div>
 
-    <div class="awords">
+    <div class="awords" id="tracking-in-expand">
         AWORDS
         <div class="awords-suv">
             2019 국제 커뮤니케이션 디자인 공모전 입선작<br>
@@ -53,12 +53,12 @@
         </div>
     </div>
 
-    <div class="skils">
+    <div class="skils" id="tracking-in-expand">
         SKILL <br>
     <div class="skils-suv">
-Ps <span></span> <img src="img/PS.png" alt=""><br><br>
-Ai <span></span> <img src="img/Ai.png" alt=""><br><br>
-Ae <span></span> <img src="img/Ae.png" alt="">
+Ps <span></span> <span class="Ps"><img src="img/PS.png" alt=""></span><br><br>
+Ai <span></span> <span class="Ai"><img src="img/Ai.png" alt=""></span><br><br>
+Ae <span></span> <span class="Ae"><img src="img/Ae.png" alt=""></span>
     </div>
     </div>
 </div>
@@ -83,7 +83,7 @@ Ae <span></span> <img src="img/Ae.png" alt="">
                 <h3>Pado</h3>
                 <p>카페 '파도' 웹페이지</p>
                 <a href="pado/index.html" class="read">Read More</a>
-            </figcaption>
+            </figcaption>   
         </figure>
     </div>
     
@@ -99,31 +99,40 @@ Ae <span></span> <img src="img/Ae.png" alt="">
     </div>
     </section>
 
-
-<section class="container">
-    <div >  
-        <form id="contact" action="" method="post">
-  <span class="about"></span>        <h3>Contact Form</h3>
-<br>
-          <fieldset>
-            <input placeholder=" name" type="text" tabindex="1" required autofocus>
-          </fieldset>
-         
-          <fieldset>
-            <input placeholder=" Phone Number" type="tel" tabindex="3" required>
-          </fieldset>
-    
-          <fieldset>
-            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-          </fieldset>
-          
-          <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-          </fieldset>
-         
-        </form>
+<section class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        
+          <span class="about"></span>    <h2>Contact</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
+                <form id="contact-form" class="form" action="#" method="POST" role="form">
+                    <div class="form-group">
+                        <label class="form-label" for="name"> Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1" required>
+                    </div>                            
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2" required>
+                    </div>                            
+                    <div class="form-group">
+                        <label class="form-label" for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
+                    </div>                            
+                    <div class="form-group">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea rows="5" cols="50" name="message" class="form-control" id="message" placeholder="Message..." tabindex="4" required></textarea>                                 
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-start-order">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
       </div>
- </section>
+</section>
 
       <footer>
         Kawon University of Art and Design @ Portfolio_Jeong Hyo Ry
